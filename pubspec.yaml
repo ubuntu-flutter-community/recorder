@@ -1,0 +1,30 @@
+name: recorder
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0-165.1.beta <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  package_info_plus: ^1.4.2
+  provider: ^6.0.3
+  safe_change_notifier: ^0.1.0+1
+  yaru: ^0.3.3
+  yaru_icons: ^0.2.1
+  yaru_widgets: ^1.1.1
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  generate: true
